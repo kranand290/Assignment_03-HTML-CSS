@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .logo{
+    height: 60px;
+    cursor: pointer;
+  }
+
+  .nav-bar{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 35px;
+    align-items: center;
+    background-color: black;
+    color: white;
+  }
+
+  .nav-list{
+    flex-grow: 1;
+  }
+
+  .line {
+    width: 1px;
+    height: 50px;
+    background-color: #fff;
+    
+  }
+
+  .left-div{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+  }
+
+  .list{
+    display: flex;
+    gap: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    list-style: none;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .token-button {
+    padding: 6px 20px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #ba0cc5;;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+  .hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../assets/bg.png");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 88.5vh;
+    text-align: center;
+    
+  }
+
+  .hero h1{
+    max-width: 846px;
+    font-size: 75px;
+    font-style: normal;
+    color: white;
+    font-weight: 600;
+    margin: 0 auto;
+    line-height: 90px;
+  
+    
+  }
+
+  .hero p{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  .button-large {
+
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #ba0cc5;;
+    font-weight: 700;
+    line-height: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+
+
+  }
